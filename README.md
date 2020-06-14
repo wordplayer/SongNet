@@ -19,6 +19,6 @@ Folder **Code Notebooks 0.1**: Contains notebooks for running all of the process
 
 `04_Cluster_vs_Community_Analysis.ipynb`: Contains training for first model (Model A0) and all functionality for optimal cluster generation and cluster and community analysis; Works as a template for all other model notebooks
 
-`Model Selection.ipynb`: Contains functionality involving training, validation and cluster and community analysis for all convolutional AE models A01-03 (here, A-C). The cluster and community analysis for these models is also contained in notebooks in the folder **Model Clustering Notebooks**. The model weights and the histories are stored in the folders **Model Weights** and **history pickles** respectively. To reuse a model from **Model Weights**, use `<network object>.load_weights(os.getcwd() + 'Model Weights\model_name'`
+`Model Selection.ipynb`: Contains functionality involving training, validation and cluster and community analysis for all convolutional AE models A01-03 (here, A-C). The cluster and community analysis for these models is also contained in notebooks in the folder **Model Clustering Notebooks**. The model weights and the histories are stored in the folders **Model Weights** and **history pickles** respectively. To reuse a model from **Model Weights**, use `<network object>.load_weights(os.getcwd() + 'Model Weights\model_name')`
 
 `VAE_08.ipynb`: Contains all functionality and model for the variational autoencoder; its model is stored in model_085. Reuse the VAE model using the same highlighted functionality as above
