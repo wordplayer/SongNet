@@ -5,7 +5,7 @@ Realizing "What if machines could just hear and predict what my song sounded lik
 
 Install dependencies (if not present): `pip install pandas tensorflow tensorflow-probability matplotlib seaborn`
 
-Make sure that your version of `tensoflow` is >=2.1.0. Before running any of the training notebooks, make sure to change the kernel to the one on which `tensorflow` is installed.
+Make sure that your version of `tensorflow` is >=2.1.0. Before running any of the training notebooks, make sure to change the kernel to the one on which `tensorflow` is installed.
 
 Folder **Code Notebooks 0.1**: Contains notebooks for running all of the processes involved in this project
 
